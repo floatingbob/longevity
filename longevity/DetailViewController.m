@@ -91,10 +91,10 @@
     
     UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:@"cell"];
     
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
-        cell.textLabel.text = [CardioArray objectAtIndex:indexPath.row];
-    }
+  
+       
+    cell.textLabel.text = [CardioArray objectAtIndex:indexPath.row];
+    
     
     return cell;
 }
