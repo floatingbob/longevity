@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D58111418C819C700B65C26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D58111318C819C700B65C26 /* Foundation.framework */; };
+		2D58111618C819C700B65C26 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D58111518C819C700B65C26 /* CoreGraphics.framework */; };
+		2D58111818C819C700B65C26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D58111718C819C700B65C26 /* UIKit.framework */; };
+		2D58111E18C819C700B65C26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D58111C18C819C700B65C26 /* InfoPlist.strings */; };
+		2D58112018C819C700B65C26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D58111F18C819C700B65C26 /* main.m */; };
+		2D58112418C819C700B65C26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D58112318C819C700B65C26 /* AppDelegate.m */; };
+		2D58112718C819C700B65C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D58112518C819C700B65C26 /* Main.storyboard */; };
+		2D58112A18C819C700B65C26 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D58112918C819C700B65C26 /* MasterViewController.m */; };
+		2D58112D18C819C700B65C26 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D58112C18C819C700B65C26 /* DetailViewController.m */; };
+		2D58112F18C819C700B65C26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D58112E18C819C700B65C26 /* Images.xcassets */; };
+		2D58113618C819C700B65C26 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D58113518C819C700B65C26 /* XCTest.framework */; };
+		2D58113718C819C700B65C26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D58111318C819C700B65C26 /* Foundation.framework */; };
+		2D58113818C819C700B65C26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D58111718C819C700B65C26 /* UIKit.framework */; };
+		2D58114018C819C700B65C26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D58113E18C819C700B65C26 /* InfoPlist.strings */; };
+		2D58114218C819C700B65C26 /* LongevityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D58114118C819C700B65C26 /* LongevityTests.m */; };
+		2D58115518C8213A00B65C26 /* AboutCondition.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D58114D18C8213A00B65C26 /* AboutCondition.png */; };
+		2D58115618C8213A00B65C26 /* AboutCondition.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D58114D18C8213A00B65C26 /* AboutCondition.png */; };
+		2D58115718C8213A00B65C26 /* ExerciseMain-NavOut.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D58114E18C8213A00B65C26 /* ExerciseMain-NavOut.png */; };
+		2D58115818C8213A00B65C26 /* ExerciseMain-NavOut.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D58114E18C8213A00B65C26 /* ExerciseMain-NavOut.png */; };
+		2D58115918C8213A00B65C26 /* MyCommunity.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D58114F18C8213A00B65C26 /* MyCommunity.png */; };
+		2D58115A18C8213A00B65C26 /* MyCommunity.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D58114F18C8213A00B65C26 /* MyCommunity.png */; };
+		2D58115B18C8213A00B65C26 /* NavBarTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D58115018C8213A00B65C26 /* NavBarTitle.png */; };
+		2D58115C18C8213A00B65C26 /* NavBarTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D58115018C8213A00B65C26 /* NavBarTitle.png */; };
+		2D58115D18C8213A00B65C26 /* PercentCompleted.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D58115118C8213A00B65C26 /* PercentCompleted.png */; };
+		2D58115E18C8213A00B65C26 /* PercentCompleted.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D58115118C8213A00B65C26 /* PercentCompleted.png */; };
+		2D58115F18C8213A00B65C26 /* TodaysExercises_Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D58115218C8213A00B65C26 /* TodaysExercises_Selected.png */; };
+		2D58116018C8213A00B65C26 /* TodaysExercises_Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D58115218C8213A00B65C26 /* TodaysExercises_Selected.png */; };
+		2D58116118C8213A00B65C26 /* ViewDashboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D58115318C8213A00B65C26 /* ViewDashboard.png */; };
+		2D58116218C8213A00B65C26 /* ViewDashboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D58115318C8213A00B65C26 /* ViewDashboard.png */; };
+		2D58116318C8213A00B65C26 /* ViewProgress.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D58115418C8213A00B65C26 /* ViewProgress.png */; };
+		2D58116418C8213A00B65C26 /* ViewProgress.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D58115418C8213A00B65C26 /* ViewProgress.png */; };
+		6C6FF1B518D1134200B18FBC /* PrescribeExerciseDetailScreencap.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C6FF1B418D1134200B18FBC /* PrescribeExerciseDetailScreencap.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D58113918C819C700B65C26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D58110818C819C700B65C26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D58110F18C819C700B65C26;
+			remoteInfo = Longevity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D58111018C819C700B65C26 /* Longevity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Longevity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D58111318C819C700B65C26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D58111518C819C700B65C26 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D58111718C819C700B65C26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2D58111B18C819C700B65C26 /* Longevity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Longevity-Info.plist"; sourceTree = "<group>"; };
+		2D58111D18C819C700B65C26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D58111F18C819C700B65C26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D58112118C819C700B65C26 /* Longevity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Longevity-Prefix.pch"; sourceTree = "<group>"; };
+		2D58112218C819C700B65C26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D58112318C819C700B65C26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D58112618C819C700B65C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D58112818C819C700B65C26 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		2D58112918C819C700B65C26 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		2D58112B18C819C700B65C26 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2D58112C18C819C700B65C26 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2D58112E18C819C700B65C26 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2D58113418C819C700B65C26 /* LongevityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongevityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D58113518C819C700B65C26 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2D58113D18C819C700B65C26 /* LongevityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LongevityTests-Info.plist"; sourceTree = "<group>"; };
+		2D58113F18C819C700B65C26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D58114118C819C700B65C26 /* LongevityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongevityTests.m; sourceTree = "<group>"; };
+		2D58114D18C8213A00B65C26 /* AboutCondition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AboutCondition.png; sourceTree = "<group>"; };
+		2D58114E18C8213A00B65C26 /* ExerciseMain-NavOut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ExerciseMain-NavOut.png"; sourceTree = "<group>"; };
+		2D58114F18C8213A00B65C26 /* MyCommunity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyCommunity.png; sourceTree = "<group>"; };
+		2D58115018C8213A00B65C26 /* NavBarTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBarTitle.png; sourceTree = "<group>"; };
+		2D58115118C8213A00B65C26 /* PercentCompleted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PercentCompleted.png; sourceTree = "<group>"; };
+		2D58115218C8213A00B65C26 /* TodaysExercises_Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TodaysExercises_Selected.png; sourceTree = "<group>"; };
+		2D58115318C8213A00B65C26 /* ViewDashboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ViewDashboard.png; sourceTree = "<group>"; };
+		2D58115418C8213A00B65C26 /* ViewProgress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ViewProgress.png; sourceTree = "<group>"; };
+		6C6FF1B418D1134200B18FBC /* PrescribeExerciseDetailScreencap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PrescribeExerciseDetailScreencap.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D58110D18C819C700B65C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D58111618C819C700B65C26 /* CoreGraphics.framework in Frameworks */,
+				2D58111818C819C700B65C26 /* UIKit.framework in Frameworks */,
+				2D58111418C819C700B65C26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D58113118C819C700B65C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D58113618C819C700B65C26 /* XCTest.framework in Frameworks */,
+				2D58113818C819C700B65C26 /* UIKit.framework in Frameworks */,
+				2D58113718C819C700B65C26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D58110718C819C700B65C26 = {
+			isa = PBXGroup;
+			children = (
+				2D58111918C819C700B65C26 /* Longevity */,
+				2D58113B18C819C700B65C26 /* LongevityTests */,
+				2D58111218C819C700B65C26 /* Frameworks */,
+				2D58111118C819C700B65C26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D58111118C819C700B65C26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D58111018C819C700B65C26 /* Longevity.app */,
+				2D58113418C819C700B65C26 /* LongevityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D58111218C819C700B65C26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D58111318C819C700B65C26 /* Foundation.framework */,
+				2D58111518C819C700B65C26 /* CoreGraphics.framework */,
+				2D58111718C819C700B65C26 /* UIKit.framework */,
+				2D58113518C819C700B65C26 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D58111918C819C700B65C26 /* Longevity */ = {
+			isa = PBXGroup;
+			children = (
+				2D58114B18C8213A00B65C26 /* Assets */,
+				2D58112218C819C700B65C26 /* AppDelegate.h */,
+				2D58112318C819C700B65C26 /* AppDelegate.m */,
+				2D58112518C819C700B65C26 /* Main.storyboard */,
+				6C6FF1B318D1134200B18FBC /* Images */,
+				2D58112818C819C700B65C26 /* MasterViewController.h */,
+				2D58112918C819C700B65C26 /* MasterViewController.m */,
+				2D58112B18C819C700B65C26 /* DetailViewController.h */,
+				2D58112C18C819C700B65C26 /* DetailViewController.m */,
+				2D58112E18C819C700B65C26 /* Images.xcassets */,
+				2D58111A18C819C700B65C26 /* Supporting Files */,
+			);
+			path = Longevity;
+			sourceTree = "<group>";
+		};
+		2D58111A18C819C700B65C26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D58111B18C819C700B65C26 /* Longevity-Info.plist */,
+				2D58111C18C819C700B65C26 /* InfoPlist.strings */,
+				2D58111F18C819C700B65C26 /* main.m */,
+				2D58112118C819C700B65C26 /* Longevity-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D58113B18C819C700B65C26 /* LongevityTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D58114118C819C700B65C26 /* LongevityTests.m */,
+				2D58113C18C819C700B65C26 /* Supporting Files */,
+			);
+			path = LongevityTests;
+			sourceTree = "<group>";
+		};
+		2D58113C18C819C700B65C26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D58113D18C819C700B65C26 /* LongevityTests-Info.plist */,
+				2D58113E18C819C700B65C26 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D58114B18C8213A00B65C26 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2D58114C18C8213A00B65C26 /* MasterIcons */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2D58114C18C8213A00B65C26 /* MasterIcons */ = {
+			isa = PBXGroup;
+			children = (
+				2D58114D18C8213A00B65C26 /* AboutCondition.png */,
+				2D58114E18C8213A00B65C26 /* ExerciseMain-NavOut.png */,
+				2D58114F18C8213A00B65C26 /* MyCommunity.png */,
+				2D58115018C8213A00B65C26 /* NavBarTitle.png */,
+				2D58115118C8213A00B65C26 /* PercentCompleted.png */,
+				2D58115218C8213A00B65C26 /* TodaysExercises_Selected.png */,
+				2D58115318C8213A00B65C26 /* ViewDashboard.png */,
+				2D58115418C8213A00B65C26 /* ViewProgress.png */,
+			);
+			path = MasterIcons;
+			sourceTree = "<group>";
+		};
+		6C6FF1B318D1134200B18FBC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6C6FF1B418D1134200B18FBC /* PrescribeExerciseDetailScreencap.png */,
+			);
+			name = Images;
+			path = longevity/Assets/Images;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D58110F18C819C700B65C26 /* Longevity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D58114518C819C700B65C26 /* Build configuration list for PBXNativeTarget "Longevity" */;
+			buildPhases = (
+				2D58110C18C819C700B65C26 /* Sources */,
+				2D58110D18C819C700B65C26 /* Frameworks */,
+				2D58110E18C819C700B65C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Longevity;
+			productName = Longevity;
+			productReference = 2D58111018C819C700B65C26 /* Longevity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D58113318C819C700B65C26 /* LongevityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D58114818C819C700B65C26 /* Build configuration list for PBXNativeTarget "LongevityTests" */;
+			buildPhases = (
+				2D58113018C819C700B65C26 /* Sources */,
+				2D58113118C819C700B65C26 /* Frameworks */,
+				2D58113218C819C700B65C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D58113A18C819C700B65C26 /* PBXTargetDependency */,
+			);
+			name = LongevityTests;
+			productName = LongevityTests;
+			productReference = 2D58113418C819C700B65C26 /* LongevityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D58110818C819C700B65C26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = ECUAD;
+				TargetAttributes = {
+					2D58110F18C819C700B65C26 = {
+						DevelopmentTeam = 729G259YQ5;
+					};
+					2D58113318C819C700B65C26 = {
+						TestTargetID = 2D58110F18C819C700B65C26;
+					};
+				};
+			};
+			buildConfigurationList = 2D58110B18C819C700B65C26 /* Build configuration list for PBXProject "longevity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D58110718C819C700B65C26;
+			productRefGroup = 2D58111118C819C700B65C26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D58110F18C819C700B65C26 /* Longevity */,
+				2D58113318C819C700B65C26 /* LongevityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D58110E18C819C700B65C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D58112F18C819C700B65C26 /* Images.xcassets in Resources */,
+				2D58115918C8213A00B65C26 /* MyCommunity.png in Resources */,
+				2D58115F18C8213A00B65C26 /* TodaysExercises_Selected.png in Resources */,
+				2D58111E18C819C700B65C26 /* InfoPlist.strings in Resources */,
+				2D58112718C819C700B65C26 /* Main.storyboard in Resources */,
+				6C6FF1B518D1134200B18FBC /* PrescribeExerciseDetailScreencap.png in Resources */,
+				2D58115518C8213A00B65C26 /* AboutCondition.png in Resources */,
+				2D58116318C8213A00B65C26 /* ViewProgress.png in Resources */,
+				2D58115D18C8213A00B65C26 /* PercentCompleted.png in Resources */,
+				2D58116118C8213A00B65C26 /* ViewDashboard.png in Resources */,
+				2D58115718C8213A00B65C26 /* ExerciseMain-NavOut.png in Resources */,
+				2D58115B18C8213A00B65C26 /* NavBarTitle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D58113218C819C700B65C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D58115C18C8213A00B65C26 /* NavBarTitle.png in Resources */,
+				2D58114018C819C700B65C26 /* InfoPlist.strings in Resources */,
+				2D58115A18C8213A00B65C26 /* MyCommunity.png in Resources */,
+				2D58116018C8213A00B65C26 /* TodaysExercises_Selected.png in Resources */,
+				2D58116418C8213A00B65C26 /* ViewProgress.png in Resources */,
+				2D58115818C8213A00B65C26 /* ExerciseMain-NavOut.png in Resources */,
+				2D58115618C8213A00B65C26 /* AboutCondition.png in Resources */,
+				2D58115E18C8213A00B65C26 /* PercentCompleted.png in Resources */,
+				2D58116218C8213A00B65C26 /* ViewDashboard.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D58110C18C819C700B65C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D58112418C819C700B65C26 /* AppDelegate.m in Sources */,
+				2D58112A18C819C700B65C26 /* MasterViewController.m in Sources */,
+				2D58112018C819C700B65C26 /* main.m in Sources */,
+				2D58112D18C819C700B65C26 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D58113018C819C700B65C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D58114218C819C700B65C26 /* LongevityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D58113A18C819C700B65C26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D58110F18C819C700B65C26 /* Longevity */;
+			targetProxy = 2D58113918C819C700B65C26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D58111C18C819C700B65C26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D58111D18C819C700B65C26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2D58112518C819C700B65C26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D58112618C819C700B65C26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D58113E18C819C700B65C26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D58113F18C819C700B65C26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D58114318C819C700B65C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "B79A09C1-6E01-4C24-A8C2-E31F597978DD";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2D58114418C819C700B65C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "B79A09C1-6E01-4C24-A8C2-E31F597978DD";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D58114618C819C700B65C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Longevity/Longevity-Prefix.pch";
+				INFOPLIST_FILE = "Longevity/Longevity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D58114718C819C700B65C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Longevity/Longevity-Prefix.pch";
+				INFOPLIST_FILE = "Longevity/Longevity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2D58114918C819C700B65C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Longevity.app/Longevity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Longevity/Longevity-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LongevityTests/LongevityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2D58114A18C819C700B65C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Longevity.app/Longevity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Longevity/Longevity-Prefix.pch";
+				INFOPLIST_FILE = "LongevityTests/LongevityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D58110B18C819C700B65C26 /* Build configuration list for PBXProject "longevity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D58114318C819C700B65C26 /* Debug */,
+				2D58114418C819C700B65C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D58114518C819C700B65C26 /* Build configuration list for PBXNativeTarget "Longevity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D58114618C819C700B65C26 /* Debug */,
+				2D58114718C819C700B65C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D58114818C819C700B65C26 /* Build configuration list for PBXNativeTarget "LongevityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D58114918C819C700B65C26 /* Debug */,
+				2D58114A18C819C700B65C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D58110818C819C700B65C26 /* Project object */;
+}
