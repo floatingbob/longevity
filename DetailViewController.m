@@ -63,8 +63,23 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    CardioArray = [[NSArray alloc] initWithObjects:@"one",@"two",@"three",@"four",@"five", nil];
+    
     [self configureView];
 }
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return [CardioArray count];
+}
+
+-(UITableViewCell *)tableview:(UITableView *)tableview cellForRowIndexPath:(NSIndexPath*)indexPath{
+    NSLog(@"CEELLLLL");
+    UITableViewCell *cell = [tableview dequeueReusableCellWithIdentifier:@"cell"];
+    cell.textLabel.text = [CardioArray objectAtIndex:indexPath.row];
+    return cell;
+}
+
 
 - (void)didReceiveMemoryWarning
 {

@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController <UISplitViewControllerDelegate>
+@interface DetailViewController : UIViewController <UISplitViewControllerDelegate, UITableViewDelegate, UITableViewDataSource>{
+    IBOutlet UITableView *tableView;
+    
+    NSArray *CardioArray;
+}
 
 @property (strong, nonatomic) id detailItem;
 
