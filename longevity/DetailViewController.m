@@ -16,7 +16,7 @@
 @implementation DetailViewController
 
 // Synthesize
-@synthesize tableView;
+@synthesize tableView1,tableView2;
 
 #pragma mark - Managing the detail item
 
@@ -67,7 +67,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    CardioArray = [[NSArray alloc] initWithObjects:@"one",@"two",@"three",@"four",@"five", nil];
+    CardioArray = [[NSArray alloc] initWithObjects:@"Cardio",@"two",@"three",@"four",@"five", nil];
+    BalanceArray = [[NSArray alloc] initWithObjects:@"Yeah!",@"two",@"three",@"four",@"five", nil];
     
     [self configureView];
 }
@@ -83,18 +84,23 @@
 
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return [CardioArray count];
+    return [BalanceArray count];
 }
 
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSLog(@"CEELLLLL");
+    NSLog(@"CELLLLL");
     
-    UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:@"cell"];
+    UITableViewCell *cell;
     
-  
-       
-    cell.textLabel.text = [CardioArray objectAtIndex:indexPath.row];
-    
+    if (tableView == tableView1) {
+        cell = [self.tableView1 dequeueReusableCellWithIdentifier:@"cell"];
+        cell.textLabel.text = [CardioArray objectAtIndex:indexPath.row];
+    }
+    else if(tableView == tableView2) {
+        cell = [self.tableView2 dequeueReusableCellWithIdentifier:@"balance"];
+        cell.textLabel.text = [BalanceArray objectAtIndex:indexPath.row];
+    }
     
     return cell;
 }
