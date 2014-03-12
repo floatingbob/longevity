@@ -17,7 +17,7 @@
                BlueprintIdentifier = "2D58110F18C819C700B65C26"
                BuildableName = "Longevity.app"
                BlueprintName = "Longevity"
-               ReferencedContainer = "container:Longevity.xcodeproj">
+               ReferencedContainer = "container:longevity.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "2D58113318C819C700B65C26"
                BuildableName = "LongevityTests.xctest"
                BlueprintName = "LongevityTests"
-               ReferencedContainer = "container:Longevity.xcodeproj">
+               ReferencedContainer = "container:longevity.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "2D58110F18C819C700B65C26"
             BuildableName = "Longevity.app"
             BlueprintName = "Longevity"
-            ReferencedContainer = "container:Longevity.xcodeproj">
+            ReferencedContainer = "container:longevity.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "2D58110F18C819C700B65C26"
             BuildableName = "Longevity.app"
             BlueprintName = "Longevity"
-            ReferencedContainer = "container:Longevity.xcodeproj">
+            ReferencedContainer = "container:longevity.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -82,7 +82,7 @@
             BlueprintIdentifier = "2D58110F18C819C700B65C26"
             BuildableName = "Longevity.app"
             BlueprintName = "Longevity"
-            ReferencedContainer = "container:Longevity.xcodeproj">
+            ReferencedContainer = "container:longevity.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
