@@ -15,6 +15,9 @@
 
 @implementation DetailViewController
 
+// Synthesize
+@synthesize tableView;
+
 #pragma mark - Managing the detail item
 
 - (void)setDetailItem:(id)newDetailItem
@@ -69,22 +72,31 @@
     [self configureView];
 }
 
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return [CardioArray count];
-}
-
--(UITableViewCell *)tableview:(UITableView *)tableview cellForRowIndexPath:(NSIndexPath*)indexPath{
-    NSLog(@"CEELLLLL");
-    UITableViewCell *cell = [tableview dequeueReusableCellWithIdentifier:@"cell"];
-    cell.textLabel.text = [CardioArray objectAtIndex:indexPath.row];
-    return cell;
-}
-
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Table View
+
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return [CardioArray count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSLog(@"CEELLLLL");
+    
+    UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:@"cell"];
+    
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+        cell.textLabel.text = [CardioArray objectAtIndex:indexPath.row];
+    }
+    
+    return cell;
 }
 
 #pragma mark - Split view
