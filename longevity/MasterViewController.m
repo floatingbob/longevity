@@ -24,10 +24,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-
-    //UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(nilSymbol)];
-    //self.navigationItem.rightBarButtonItem = addButton;
     
     imagesArray = [NSArray arrayWithObjects:
                    [UIImage imageNamed:@"ViewDashboard"],
@@ -96,16 +92,13 @@
 // WHAT HAPPENS WHEN WE CLICK A PARTICULAR CELL
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    //NSString *inStr = [NSString stringWithFormat:@"%d", indexPath.row];
-    //self.detailViewController.detailItem = inStr;
-    
-    //DetailViewController *detailViewController;
+
     UIStoryboard*  sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     
     switch (indexPath.row) {
         case 0:
             NSLog(@"Loading 1");
-            self.detailViewController = [sb instantiateViewControllerWithIdentifier:@"DetailViewController2"];
+            self.detailViewController = [sb instantiateViewControllerWithIdentifier:@"DetailViewController1"];
             break;
         case 1:
             NSLog(@"Loading 2");
@@ -113,7 +106,7 @@
             break;
         case 2:
             NSLog(@"Loading 3");
-            self.detailViewController = [sb instantiateViewControllerWithIdentifier:@"DetailViewController2"];
+            self.detailViewController = [sb instantiateViewControllerWithIdentifier:@"DetailViewController3"];
             break;
         case 3:
             NSLog(@"Loading 4");
@@ -121,7 +114,7 @@
             break;
         case 4:
             NSLog(@"Loading 5");
-            self.detailViewController = [sb instantiateViewControllerWithIdentifier:@"DetailViewController3"];
+            self.detailViewController = [sb instantiateViewControllerWithIdentifier:@"DetailViewController5"];
             break;
         default:
             break;
