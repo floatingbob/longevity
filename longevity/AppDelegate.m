@@ -16,6 +16,8 @@
     UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
     splitViewController.delegate = (id)navigationController.topViewController;
+    [splitViewController setValue:[NSNumber numberWithFloat:87.0] forKey:@"_masterColumnWidth"];
+
     return YES;
 }
 							
