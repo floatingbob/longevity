@@ -7,9 +7,8 @@
 //
 
 #import "MasterViewController.h"
-
 #import "DetailViewController.h"
-
+#import "AppDelegate.h"
 
 
 @implementation MasterViewController
@@ -21,19 +20,32 @@
     [super awakeFromNib];
 }
 
+- (void) resizeMasterWidth:(float)size { // NEEDS WORK
+    AppDelegate *appDelegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
+    UISplitViewController *splitViewController = (UISplitViewController *)appDelegate.window.rootViewController;
+    [splitViewController setValue:[NSNumber numberWithFloat:size] forKey:@"_masterColumnWidth"];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    navIsExpanded = NO;
+
+    self.cell1.backgroundColor = [UIColor magentaColor];
+    self.cell1.imageView.image = [UIImage imageNamed:@"home.png"];
+
+    self.cell2.backgroundColor = [UIColor magentaColor];
+    self.cell2.imageView.image = [UIImage imageNamed:@"exercises.png"];
     
-    imagesArray = [NSArray arrayWithObjects:
-                   [UIImage imageNamed:@"ViewDashboard"],
-                   [UIImage imageNamed:@"TodaysExercises_Selected"],
-                   [UIImage imageNamed:@"AboutCondition"],
-                   [UIImage imageNamed:@"ViewProgress"],
-                   [UIImage imageNamed:@"MyCommunity"],
-                   [UIImage imageNamed:@"PercentCompleted"],
-                   nil];
+    self.cell3.backgroundColor = [UIColor magentaColor];
+    self.cell3.imageView.image = [UIImage imageNamed:@"about.png"];
     
+    self.cell4.backgroundColor = [UIColor magentaColor];
+    self.cell4.imageView.image = [UIImage imageNamed:@"progress.png"];
+    
+    self.cell5.backgroundColor = [UIColor magentaColor];
+    self.cell5.imageView.image = [UIImage imageNamed:@"community.png"];
     
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
 }
@@ -93,8 +105,20 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
 
-    UIStoryboard*  sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    // Resize
+    if(navIsExpanded) {
+        NSLog(@"Shrinking");
+        [self resizeMasterWidth:87.0];
+    }
+    else {
+        NSLog(@"Expanding");
+        [self resizeMasterWidth:225.0];
+    }
+    navIsExpanded = !navIsExpanded;
+
     
+    UIStoryboard*  sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+   /*
     switch (indexPath.row) {
         case 0:
             NSLog(@"Loading 1");
@@ -121,7 +145,7 @@
     }
     
     [self.navigationController pushViewController:self.detailViewController animated:YES];
-    
+    */
 }
 
 @end
