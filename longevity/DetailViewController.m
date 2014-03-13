@@ -16,7 +16,7 @@
 @implementation DetailViewController
 
 // Synthesize
-@synthesize tableView;
+@synthesize tableView1,tableView2,tableView3;
 
 #pragma mark - Managing the detail item
 
@@ -66,11 +66,21 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
-    CardioArray = [[NSArray alloc] initWithObjects:@"one",@"two",@"three",@"four",@"five", nil];
-    
+    CardioArray = [[NSArray alloc] initWithObjects:@"Cardio",@"two",@"three",@"four",@"five",@"six",@"seven", nil];
+    BalanceArray = [NSArray arrayWithObjects:
+                     [UIImage imageNamed:@"sidewaysStepping"],
+                     [UIImage imageNamed:@"sitToStand"],
+                     [UIImage imageNamed:@"tandemWalking"],
+                     [UIImage imageNamed:@"reachingWhileStanding"],
+                     [UIImage imageNamed:@"toeReachSeated"],
+                     [UIImage imageNamed:@"tiptoeChair"],
+                     [UIImage imageNamed:@"custom"],
+                     nil];
+    StrengthArray = [[NSArray alloc] initWithObjects:@"Strength for sure!",@"two",@"three",@"four",@"five",@"six",@"seven", nil];
     [self configureView];
 }
+
+
 
 
 - (void)didReceiveMemoryWarning
@@ -83,13 +93,29 @@
 
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return [CardioArray count];
+    return [BalanceArray count];
 }
+
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:@"cell"];
-    cell.textLabel.text = [CardioArray objectAtIndex:indexPath.row];
+    UITableViewCell *cell;
+    
+    if (tableView == tableView1) {
+        cell = [self.tableView1 dequeueReusableCellWithIdentifier:@"cell"];
+        cell.textLabel.text = [CardioArray objectAtIndex:indexPath.row];
+    }
+    else if(tableView == tableView2) {
+        cell = [self.tableView2 dequeueReusableCellWithIdentifier:@"balance"];
+        UIImageView *av = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 225, 44)];
+        av.image = [BalanceArray objectAtIndex:indexPath.row];
+        cell.backgroundView = av;
+        
+    }
+    else if(tableView == tableView3) {
+            cell = [self.tableView3 dequeueReusableCellWithIdentifier:@"strength"];
+            cell.textLabel.text = [StrengthArray objectAtIndex:indexPath.row];
+    }
     
     return cell;
 }
