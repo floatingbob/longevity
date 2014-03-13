@@ -16,7 +16,7 @@
 @implementation DetailViewController
 
 // Synthesize
-@synthesize tableView1,tableView2;
+@synthesize tableView1,tableView2,tableView3;
 
 #pragma mark - Managing the detail item
 
@@ -69,7 +69,7 @@
     
     CardioArray = [[NSArray alloc] initWithObjects:@"Cardio",@"two",@"three",@"four",@"five", nil];
     BalanceArray = [[NSArray alloc] initWithObjects:@"Yeah!",@"two",@"three",@"four",@"five", nil];
-    
+    StrengthArray = [[NSArray alloc] initWithObjects:@"Strength for sure!",@"two",@"three",@"four",@"five", nil];
     [self configureView];
 }
 
@@ -100,6 +100,10 @@
     else if(tableView == tableView2) {
         cell = [self.tableView2 dequeueReusableCellWithIdentifier:@"balance"];
         cell.textLabel.text = [BalanceArray objectAtIndex:indexPath.row];
+    }
+    else if(tableView == tableView3) {
+            cell = [self.tableView3 dequeueReusableCellWithIdentifier:@"strength"];
+            cell.textLabel.text = [StrengthArray objectAtIndex:indexPath.row];
     }
     
     return cell;

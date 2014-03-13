@@ -14,11 +14,13 @@
     
     NSArray *CardioArray;
     NSArray *BalanceArray;
+    NSArray *StrengthArray;
 }
 
 @property (strong, nonatomic)   id detailItem;
 @property (weak, nonatomic)     IBOutlet UITableView *tableView1;
 @property (weak, nonatomic)     IBOutlet UITableView *tableView2;
+@property (weak, nonatomic)     IBOutlet UITableView *tableView3;
 @property (weak, nonatomic)     IBOutlet UILabel *detailDescriptionLabel;
 
 @end
