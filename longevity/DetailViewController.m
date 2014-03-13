@@ -66,12 +66,21 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
-    CardioArray = [[NSArray alloc] initWithObjects:@"Cardio",@"two",@"three",@"four",@"five", nil];
-    BalanceArray = [[NSArray alloc] initWithObjects:@"Yeah!",@"two",@"three",@"four",@"five", nil];
-    StrengthArray = [[NSArray alloc] initWithObjects:@"Strength for sure!",@"two",@"three",@"four",@"five", nil];
+    CardioArray = [[NSArray alloc] initWithObjects:@"Cardio",@"two",@"three",@"four",@"five",@"six",@"seven", nil];
+    BalanceArray = [NSArray arrayWithObjects:
+                     [UIImage imageNamed:@"sidewaysStepping"],
+                     [UIImage imageNamed:@"sitToStand"],
+                     [UIImage imageNamed:@"tandemWalking"],
+                     [UIImage imageNamed:@"reachingWhileStanding"],
+                     [UIImage imageNamed:@"toeReachSeated"],
+                     [UIImage imageNamed:@"tiptoeChair"],
+                     [UIImage imageNamed:@"custom"],
+                     nil];
+    StrengthArray = [[NSArray alloc] initWithObjects:@"Strength for sure!",@"two",@"three",@"four",@"five",@"six",@"seven", nil];
     [self configureView];
 }
+
+
 
 
 - (void)didReceiveMemoryWarning
@@ -99,7 +108,10 @@
     }
     else if(tableView == tableView2) {
         cell = [self.tableView2 dequeueReusableCellWithIdentifier:@"balance"];
-        cell.textLabel.text = [BalanceArray objectAtIndex:indexPath.row];
+        UIImageView *av = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 225, 44)];
+        av.image = [BalanceArray objectAtIndex:indexPath.row];
+        cell.backgroundView = av;
+        
     }
     else if(tableView == tableView3) {
             cell = [self.tableView3 dequeueReusableCellWithIdentifier:@"strength"];
