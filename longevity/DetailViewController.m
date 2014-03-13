@@ -98,7 +98,6 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSLog(@"CELLLLL");
     
     UITableViewCell *cell;
     

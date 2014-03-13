@@ -10,7 +10,6 @@
 
 @interface DetailViewController : UIViewController <UISplitViewControllerDelegate, UITableViewDelegate, UITableViewDataSource> {
     
-    //IBOutlet UITableView *tableView;
     
     NSArray *CardioArray;
     NSArray *BalanceArray;
