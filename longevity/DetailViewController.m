@@ -66,7 +66,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    CardioArray = [[NSArray alloc] initWithObjects:@"Cardio",@"two",@"three",@"four",@"five",@"six",@"seven", nil];
+    
     BalanceArray = [NSArray arrayWithObjects:
                      [UIImage imageNamed:@"sidewaysStepping"],
                      [UIImage imageNamed:@"sitToStand"],
@@ -76,7 +76,25 @@
                      [UIImage imageNamed:@"tiptoeChair"],
                      [UIImage imageNamed:@"custom"],
                      nil];
-    StrengthArray = [[NSArray alloc] initWithObjects:@"Strength for sure!",@"two",@"three",@"four",@"five",@"six",@"seven", nil];
+    StrengthArray = [NSArray arrayWithObjects:
+                     [UIImage imageNamed:@"strength_1"],
+                     [UIImage imageNamed:@"strength_2"],
+                     [UIImage imageNamed:@"strength_3"],
+                     [UIImage imageNamed:@"strength_4"],
+                     [UIImage imageNamed:@"strength_5"],
+                     [UIImage imageNamed:@"strength_6"],
+                     [UIImage imageNamed:@"custom"],
+                     nil];
+    CardioArray = [NSArray arrayWithObjects:
+                     [UIImage imageNamed:@"cardio_1"],
+                     [UIImage imageNamed:@"cardio_2"],
+                     [UIImage imageNamed:@"cardio_3"],
+                     [UIImage imageNamed:@"cardio_4"],
+                     [UIImage imageNamed:@"cardio_5"],
+                     [UIImage imageNamed:@"cardio_6"],
+                     [UIImage imageNamed:@"custom"],
+                     nil];
+    
     [self configureView];
 }
 
@@ -102,19 +120,23 @@
     UITableViewCell *cell;
     
     if (tableView == tableView1) {
-        cell = [self.tableView1 dequeueReusableCellWithIdentifier:@"cell"];
-        cell.textLabel.text = [CardioArray objectAtIndex:indexPath.row];
+        cell = [self.tableView1 dequeueReusableCellWithIdentifier:@"cardio"];
+        UIImageView *av = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 192, 73)];
+        av.image = [CardioArray objectAtIndex:indexPath.row];
+        cell.backgroundView = av;
     }
     else if(tableView == tableView2) {
         cell = [self.tableView2 dequeueReusableCellWithIdentifier:@"balance"];
-        UIImageView *av = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 225, 44)];
+        UIImageView *av = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 192, 73)];
         av.image = [BalanceArray objectAtIndex:indexPath.row];
         cell.backgroundView = av;
         
     }
     else if(tableView == tableView3) {
-            cell = [self.tableView3 dequeueReusableCellWithIdentifier:@"strength"];
-            cell.textLabel.text = [StrengthArray objectAtIndex:indexPath.row];
+        cell = [self.tableView3 dequeueReusableCellWithIdentifier:@"strength"];
+        UIImageView *av = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 192, 73)];
+        av.image = [StrengthArray objectAtIndex:indexPath.row];
+        cell.backgroundView = av;
     }
     
     return cell;

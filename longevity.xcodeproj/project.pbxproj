@@ -61,6 +61,34 @@
 		6CA3FD1418D9FD560097D201 /* balanceHeader@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD1118D9FD560097D201 /* balanceHeader@2x.png */; };
 		6CA3FD1518D9FD560097D201 /* cardioHeader@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD1218D9FD560097D201 /* cardioHeader@2x.png */; };
 		6CA3FD1618D9FD560097D201 /* strengthHeader@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD1318D9FD560097D201 /* strengthHeader@2x.png */; };
+		6CA3FD3818DA08380097D201 /* strength_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD3118DA08380097D201 /* strength_1.png */; };
+		6CA3FD3918DA08380097D201 /* strength_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD3218DA08380097D201 /* strength_2.png */; };
+		6CA3FD3A18DA08380097D201 /* strength_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD3318DA08380097D201 /* strength_3.png */; };
+		6CA3FD3B18DA08380097D201 /* strength_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD3418DA08380097D201 /* strength_4.png */; };
+		6CA3FD3C18DA08380097D201 /* strength_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD3518DA08380097D201 /* strength_5.png */; };
+		6CA3FD3D18DA08380097D201 /* strength_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD3618DA08380097D201 /* strength_6.png */; };
+		6CA3FD3E18DA08380097D201 /* strength_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD3718DA08380097D201 /* strength_7.png */; };
+		6CA3FD4618DA08BA0097D201 /* strength_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD3F18DA08BA0097D201 /* strength_1@2x.png */; };
+		6CA3FD4718DA08BA0097D201 /* strength_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD4018DA08BA0097D201 /* strength_2@2x.png */; };
+		6CA3FD4818DA08BA0097D201 /* strength_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD4118DA08BA0097D201 /* strength_3@2x.png */; };
+		6CA3FD4918DA08BA0097D201 /* strength_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD4218DA08BA0097D201 /* strength_4@2x.png */; };
+		6CA3FD4A18DA08BA0097D201 /* strength_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD4318DA08BA0097D201 /* strength_5@2x.png */; };
+		6CA3FD4B18DA08BA0097D201 /* strength_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD4418DA08BA0097D201 /* strength_6@2x.png */; };
+		6CA3FD4C18DA08BA0097D201 /* strength_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD4518DA08BA0097D201 /* strength_7@2x.png */; };
+		6CA3FD5418DA16610097D201 /* cardio_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD4E18DA16610097D201 /* cardio_2.png */; };
+		6CA3FD5518DA16610097D201 /* cardio_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD4F18DA16610097D201 /* cardio_3.png */; };
+		6CA3FD5618DA16610097D201 /* cardio_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD5018DA16610097D201 /* cardio_4.png */; };
+		6CA3FD5718DA16610097D201 /* cardio_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD5118DA16610097D201 /* cardio_5.png */; };
+		6CA3FD5818DA16610097D201 /* cardio_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD5218DA16610097D201 /* cardio_6.png */; };
+		6CA3FD6018DA16790097D201 /* cardio_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD5A18DA16790097D201 /* cardio_2@2x.png */; };
+		6CA3FD6118DA16790097D201 /* cardio_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD5B18DA16790097D201 /* cardio_3@2x.png */; };
+		6CA3FD6218DA16790097D201 /* cardio_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD5C18DA16790097D201 /* cardio_4@2x.png */; };
+		6CA3FD6318DA16790097D201 /* cardio_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD5D18DA16790097D201 /* cardio_5@2x.png */; };
+		6CA3FD6418DA16790097D201 /* cardio_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD5E18DA16790097D201 /* cardio_6@2x.png */; };
+		6CA3FD6618DA182B0097D201 /* cardio_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD6518DA182B0097D201 /* cardio_1.png */; };
+		6CA3FD6818DA18340097D201 /* cardio_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD6718DA18340097D201 /* cardio_1@2x.png */; };
+		6CA3FD6A18DA2B920097D201 /* detailBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD6918DA2B920097D201 /* detailBackground.png */; };
+		6CA3FD6C18DA2B990097D201 /* detailBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD6B18DA2B990097D201 /* detailBackground@2x.png */; };
 		6CD40B9D18D1376300F3DAFD /* PrescribeExerciseDetailScreencap.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD40B8918D1376300F3DAFD /* PrescribeExerciseDetailScreencap.png */; };
 		6CD40B9E18D1376300F3DAFD /* custom.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD40B8C18D1376300F3DAFD /* custom.png */; };
 		6CD40B9F18D1376300F3DAFD /* grapevineWalking.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD40B8D18D1376300F3DAFD /* grapevineWalking.png */; };
@@ -155,6 +183,34 @@
 		6CA3FD1118D9FD560097D201 /* balanceHeader@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "balanceHeader@2x.png"; path = "longevity/Assets/Images/prescriptionExercises/retina/balanceHeader@2x.png"; sourceTree = SOURCE_ROOT; };
 		6CA3FD1218D9FD560097D201 /* cardioHeader@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cardioHeader@2x.png"; path = "longevity/Assets/Images/prescriptionExercises/retina/cardioHeader@2x.png"; sourceTree = SOURCE_ROOT; };
 		6CA3FD1318D9FD560097D201 /* strengthHeader@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "strengthHeader@2x.png"; path = "longevity/Assets/Images/prescriptionExercises/retina/strengthHeader@2x.png"; sourceTree = SOURCE_ROOT; };
+		6CA3FD3118DA08380097D201 /* strength_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strength_1.png; sourceTree = "<group>"; };
+		6CA3FD3218DA08380097D201 /* strength_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strength_2.png; sourceTree = "<group>"; };
+		6CA3FD3318DA08380097D201 /* strength_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strength_3.png; sourceTree = "<group>"; };
+		6CA3FD3418DA08380097D201 /* strength_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strength_4.png; sourceTree = "<group>"; };
+		6CA3FD3518DA08380097D201 /* strength_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strength_5.png; sourceTree = "<group>"; };
+		6CA3FD3618DA08380097D201 /* strength_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strength_6.png; sourceTree = "<group>"; };
+		6CA3FD3718DA08380097D201 /* strength_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strength_7.png; sourceTree = "<group>"; };
+		6CA3FD3F18DA08BA0097D201 /* strength_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strength_1@2x.png"; sourceTree = "<group>"; };
+		6CA3FD4018DA08BA0097D201 /* strength_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strength_2@2x.png"; sourceTree = "<group>"; };
+		6CA3FD4118DA08BA0097D201 /* strength_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strength_3@2x.png"; sourceTree = "<group>"; };
+		6CA3FD4218DA08BA0097D201 /* strength_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strength_4@2x.png"; sourceTree = "<group>"; };
+		6CA3FD4318DA08BA0097D201 /* strength_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strength_5@2x.png"; sourceTree = "<group>"; };
+		6CA3FD4418DA08BA0097D201 /* strength_6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strength_6@2x.png"; sourceTree = "<group>"; };
+		6CA3FD4518DA08BA0097D201 /* strength_7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strength_7@2x.png"; sourceTree = "<group>"; };
+		6CA3FD4E18DA16610097D201 /* cardio_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardio_2.png; sourceTree = "<group>"; };
+		6CA3FD4F18DA16610097D201 /* cardio_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardio_3.png; sourceTree = "<group>"; };
+		6CA3FD5018DA16610097D201 /* cardio_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardio_4.png; sourceTree = "<group>"; };
+		6CA3FD5118DA16610097D201 /* cardio_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardio_5.png; sourceTree = "<group>"; };
+		6CA3FD5218DA16610097D201 /* cardio_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardio_6.png; sourceTree = "<group>"; };
+		6CA3FD5A18DA16790097D201 /* cardio_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cardio_2@2x.png"; sourceTree = "<group>"; };
+		6CA3FD5B18DA16790097D201 /* cardio_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cardio_3@2x.png"; sourceTree = "<group>"; };
+		6CA3FD5C18DA16790097D201 /* cardio_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cardio_4@2x.png"; sourceTree = "<group>"; };
+		6CA3FD5D18DA16790097D201 /* cardio_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cardio_5@2x.png"; sourceTree = "<group>"; };
+		6CA3FD5E18DA16790097D201 /* cardio_6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cardio_6@2x.png"; sourceTree = "<group>"; };
+		6CA3FD6518DA182B0097D201 /* cardio_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardio_1.png; sourceTree = "<group>"; };
+		6CA3FD6718DA18340097D201 /* cardio_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cardio_1@2x.png"; sourceTree = "<group>"; };
+		6CA3FD6918DA2B920097D201 /* detailBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detailBackground.png; sourceTree = "<group>"; };
+		6CA3FD6B18DA2B990097D201 /* detailBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detailBackground@2x.png"; sourceTree = "<group>"; };
 		6CD40B8918D1376300F3DAFD /* PrescribeExerciseDetailScreencap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PrescribeExerciseDetailScreencap.png; path = ../PrescribeExerciseDetailScreencap.png; sourceTree = "<group>"; };
 		6CD40B8C18D1376300F3DAFD /* custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom.png; sourceTree = "<group>"; };
 		6CD40B8D18D1376300F3DAFD /* grapevineWalking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grapevineWalking.png; sourceTree = "<group>"; };
@@ -375,6 +431,20 @@
 		6CD40B8B18D1376300F3DAFD /* nonretina */ = {
 			isa = PBXGroup;
 			children = (
+				6CA3FD6918DA2B920097D201 /* detailBackground.png */,
+				6CA3FD6518DA182B0097D201 /* cardio_1.png */,
+				6CA3FD4E18DA16610097D201 /* cardio_2.png */,
+				6CA3FD4F18DA16610097D201 /* cardio_3.png */,
+				6CA3FD5018DA16610097D201 /* cardio_4.png */,
+				6CA3FD5118DA16610097D201 /* cardio_5.png */,
+				6CA3FD5218DA16610097D201 /* cardio_6.png */,
+				6CA3FD3118DA08380097D201 /* strength_1.png */,
+				6CA3FD3218DA08380097D201 /* strength_2.png */,
+				6CA3FD3318DA08380097D201 /* strength_3.png */,
+				6CA3FD3418DA08380097D201 /* strength_4.png */,
+				6CA3FD3518DA08380097D201 /* strength_5.png */,
+				6CA3FD3618DA08380097D201 /* strength_6.png */,
+				6CA3FD3718DA08380097D201 /* strength_7.png */,
 				6CA3FD0B18D9FD480097D201 /* balanceHeader.png */,
 				6CA3FD0C18D9FD480097D201 /* cardioHeader.png */,
 				6CA3FD0D18D9FD480097D201 /* strengthHeader.png */,
@@ -393,6 +463,20 @@
 		6CD40B9418D1376300F3DAFD /* retina */ = {
 			isa = PBXGroup;
 			children = (
+				6CA3FD6B18DA2B990097D201 /* detailBackground@2x.png */,
+				6CA3FD6718DA18340097D201 /* cardio_1@2x.png */,
+				6CA3FD5A18DA16790097D201 /* cardio_2@2x.png */,
+				6CA3FD5B18DA16790097D201 /* cardio_3@2x.png */,
+				6CA3FD5C18DA16790097D201 /* cardio_4@2x.png */,
+				6CA3FD5D18DA16790097D201 /* cardio_5@2x.png */,
+				6CA3FD5E18DA16790097D201 /* cardio_6@2x.png */,
+				6CA3FD3F18DA08BA0097D201 /* strength_1@2x.png */,
+				6CA3FD4018DA08BA0097D201 /* strength_2@2x.png */,
+				6CA3FD4118DA08BA0097D201 /* strength_3@2x.png */,
+				6CA3FD4218DA08BA0097D201 /* strength_4@2x.png */,
+				6CA3FD4318DA08BA0097D201 /* strength_5@2x.png */,
+				6CA3FD4418DA08BA0097D201 /* strength_6@2x.png */,
+				6CA3FD4518DA08BA0097D201 /* strength_7@2x.png */,
 				6CA3FD1118D9FD560097D201 /* balanceHeader@2x.png */,
 				6CA3FD1218D9FD560097D201 /* cardioHeader@2x.png */,
 				6CA3FD1318D9FD560097D201 /* strengthHeader@2x.png */,
@@ -488,20 +572,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CD40BA218D1376300F3DAFD /* SitToStand.png in Resources */,
+				6CA3FD3918DA08380097D201 /* strength_2.png in Resources */,
 				6CD40B9D18D1376300F3DAFD /* PrescribeExerciseDetailScreencap.png in Resources */,
+				6CA3FD4C18DA08BA0097D201 /* strength_7@2x.png in Resources */,
 				2D21587918D13E8A00ABD813 /* community@2x.png in Resources */,
 				2D58112F18C819C700B65C26 /* Images.xcassets in Resources */,
 				6CA3FD0F18D9FD480097D201 /* cardioHeader.png in Resources */,
 				2D21588318D13E8A00ABD813 /* progress.png in Resources */,
+				6CA3FD4818DA08BA0097D201 /* strength_3@2x.png in Resources */,
 				6CD40BAC18D1376300F3DAFD /* tiptoeChair@2x.png in Resources */,
 				6CD40B9E18D1376300F3DAFD /* custom.png in Resources */,
 				2D21587A18D13E8A00ABD813 /* doctorCommunity@2x.png in Resources */,
 				2D21588018D13E8A00ABD813 /* logo@2x.png in Resources */,
 				2D21585B18D13E8400ABD813 /* bicepCurl@2x.png in Resources */,
+				6CA3FD4A18DA08BA0097D201 /* strength_5@2x.png in Resources */,
+				6CA3FD3A18DA08380097D201 /* strength_3.png in Resources */,
 				6CD40BA318D1376300F3DAFD /* tandemWalking.png in Resources */,
 				2D21588A18D13E8A00ABD813 /* userProgress@2x.png in Resources */,
+				6CA3FD3818DA08380097D201 /* strength_1.png in Resources */,
+				6CA3FD3C18DA08380097D201 /* strength_5.png in Resources */,
+				6CA3FD4918DA08BA0097D201 /* strength_4@2x.png in Resources */,
+				6CA3FD5418DA16610097D201 /* cardio_2.png in Resources */,
 				2D21587618D13E8A00ABD813 /* about.png in Resources */,
+				6CA3FD6C18DA2B990097D201 /* detailBackground@2x.png in Resources */,
 				2D21587718D13E8A00ABD813 /* about@2x.png in Resources */,
+				6CA3FD6118DA16790097D201 /* cardio_3@2x.png in Resources */,
+				6CA3FD6818DA18340097D201 /* cardio_1@2x.png in Resources */,
 				2D21588918D13E8A00ABD813 /* userProgress.png in Resources */,
 				2D21585A18D13E8400ABD813 /* bicepCurl.png in Resources */,
 				2D58111E18C819C700B65C26 /* InfoPlist.strings in Resources */,
@@ -517,30 +613,46 @@
 				2D21588518D13E8A00ABD813 /* ueserExercise.png in Resources */,
 				2D21585C18D13E8400ABD813 /* complete.png in Resources */,
 				2D21585E18D13E8400ABD813 /* unfinished.png in Resources */,
+				6CA3FD6218DA16790097D201 /* cardio_4@2x.png in Resources */,
+				6CA3FD5818DA16610097D201 /* cardio_6.png in Resources */,
+				6CA3FD4618DA08BA0097D201 /* strength_1@2x.png in Resources */,
+				6CA3FD3E18DA08380097D201 /* strength_7.png in Resources */,
 				2D21588618D13E8A00ABD813 /* user.png in Resources */,
 				2D21587F18D13E8A00ABD813 /* logo.png in Resources */,
 				2D21587D18D13E8A00ABD813 /* home.png in Resources */,
 				2D21585918D13E8400ABD813 /* beginExercise@2x.png in Resources */,
 				2D21588718D13E8A00ABD813 /* user@2x.png in Resources */,
+				6CA3FD6618DA182B0097D201 /* cardio_1.png in Resources */,
 				2D21588118D13E8A00ABD813 /* moreInfo.png in Resources */,
+				6CA3FD3D18DA08380097D201 /* strength_6.png in Resources */,
 				6CD40BA518D1376300F3DAFD /* toeReachSeated.png in Resources */,
 				6CA3FD0E18D9FD480097D201 /* balanceHeader.png in Resources */,
 				6CD40BA618D1376300F3DAFD /* custom@2x.png in Resources */,
+				6CA3FD5518DA16610097D201 /* cardio_3.png in Resources */,
+				6CA3FD4718DA08BA0097D201 /* strength_2@2x.png in Resources */,
 				2D21587B18D13E8A00ABD813 /* exercises.png in Resources */,
 				6CA3FD1418D9FD560097D201 /* balanceHeader@2x.png in Resources */,
 				2D21585F18D13E8400ABD813 /* unfinished@2x.png in Resources */,
 				2D21587E18D13E8A00ABD813 /* home@2x.png in Resources */,
 				6CD40BA718D1376300F3DAFD /* grapevineWalking@2x.png in Resources */,
+				6CA3FD6018DA16790097D201 /* cardio_2@2x.png in Resources */,
+				6CA3FD5618DA16610097D201 /* cardio_4.png in Resources */,
+				6CA3FD5718DA16610097D201 /* cardio_5.png in Resources */,
 				6CD40BA818D1376300F3DAFD /* reachingWhileStanding@2x.png in Resources */,
 				6CD40BA018D1376300F3DAFD /* reachingWhileStanding.png in Resources */,
+				6CA3FD6318DA16790097D201 /* cardio_5@2x.png in Resources */,
 				2D21588418D13E8A00ABD813 /* progress@2x.png in Resources */,
 				2D21588218D13E8A00ABD813 /* moreInfo@2x.png in Resources */,
 				2D21587C18D13E8A00ABD813 /* exercises@2x.png in Resources */,
 				2D21585818D13E8400ABD813 /* beginExercise.png in Resources */,
+				6CA3FD6418DA16790097D201 /* cardio_6@2x.png in Resources */,
 				6CD40BAD18D1376300F3DAFD /* toeReachSeated@2x.png in Resources */,
+				6CA3FD3B18DA08380097D201 /* strength_4.png in Resources */,
 				6CA3FD1018D9FD480097D201 /* strengthHeader.png in Resources */,
 				6CD40BA418D1376300F3DAFD /* tiptoeChair.png in Resources */,
 				6CD40BA118D1376300F3DAFD /* sidewaysStepping.png in Resources */,
+				6CA3FD4B18DA08BA0097D201 /* strength_6@2x.png in Resources */,
+				6CA3FD6A18DA2B920097D201 /* detailBackground.png in Resources */,
 				6CA3FD1518D9FD560097D201 /* cardioHeader@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -699,10 +811,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Longevity/Longevity-Prefix.pch";
 				INFOPLIST_FILE = "Longevity/Longevity-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -713,10 +827,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Longevity/Longevity-Prefix.pch";
 				INFOPLIST_FILE = "Longevity/Longevity-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
