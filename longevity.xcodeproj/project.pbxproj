@@ -55,6 +55,12 @@
 		2D58113818C819C700B65C26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D58111718C819C700B65C26 /* UIKit.framework */; };
 		2D58114018C819C700B65C26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D58113E18C819C700B65C26 /* InfoPlist.strings */; };
 		2D58114218C819C700B65C26 /* LongevityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D58114118C819C700B65C26 /* LongevityTests.m */; };
+		6CA3FD0E18D9FD480097D201 /* balanceHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD0B18D9FD480097D201 /* balanceHeader.png */; };
+		6CA3FD0F18D9FD480097D201 /* cardioHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD0C18D9FD480097D201 /* cardioHeader.png */; };
+		6CA3FD1018D9FD480097D201 /* strengthHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD0D18D9FD480097D201 /* strengthHeader.png */; };
+		6CA3FD1418D9FD560097D201 /* balanceHeader@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD1118D9FD560097D201 /* balanceHeader@2x.png */; };
+		6CA3FD1518D9FD560097D201 /* cardioHeader@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD1218D9FD560097D201 /* cardioHeader@2x.png */; };
+		6CA3FD1618D9FD560097D201 /* strengthHeader@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA3FD1318D9FD560097D201 /* strengthHeader@2x.png */; };
 		6CD40B9D18D1376300F3DAFD /* PrescribeExerciseDetailScreencap.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD40B8918D1376300F3DAFD /* PrescribeExerciseDetailScreencap.png */; };
 		6CD40B9E18D1376300F3DAFD /* custom.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD40B8C18D1376300F3DAFD /* custom.png */; };
 		6CD40B9F18D1376300F3DAFD /* grapevineWalking.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD40B8D18D1376300F3DAFD /* grapevineWalking.png */; };
@@ -143,6 +149,12 @@
 		2D58113D18C819C700B65C26 /* LongevityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LongevityTests-Info.plist"; sourceTree = "<group>"; };
 		2D58113F18C819C700B65C26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2D58114118C819C700B65C26 /* LongevityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongevityTests.m; sourceTree = "<group>"; };
+		6CA3FD0B18D9FD480097D201 /* balanceHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = balanceHeader.png; path = longevity/Assets/Images/prescriptionExercises/nonretina/balanceHeader.png; sourceTree = SOURCE_ROOT; };
+		6CA3FD0C18D9FD480097D201 /* cardioHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cardioHeader.png; path = longevity/Assets/Images/prescriptionExercises/nonretina/cardioHeader.png; sourceTree = SOURCE_ROOT; };
+		6CA3FD0D18D9FD480097D201 /* strengthHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = strengthHeader.png; path = longevity/Assets/Images/prescriptionExercises/nonretina/strengthHeader.png; sourceTree = SOURCE_ROOT; };
+		6CA3FD1118D9FD560097D201 /* balanceHeader@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "balanceHeader@2x.png"; path = "longevity/Assets/Images/prescriptionExercises/retina/balanceHeader@2x.png"; sourceTree = SOURCE_ROOT; };
+		6CA3FD1218D9FD560097D201 /* cardioHeader@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cardioHeader@2x.png"; path = "longevity/Assets/Images/prescriptionExercises/retina/cardioHeader@2x.png"; sourceTree = SOURCE_ROOT; };
+		6CA3FD1318D9FD560097D201 /* strengthHeader@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "strengthHeader@2x.png"; path = "longevity/Assets/Images/prescriptionExercises/retina/strengthHeader@2x.png"; sourceTree = SOURCE_ROOT; };
 		6CD40B8918D1376300F3DAFD /* PrescribeExerciseDetailScreencap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PrescribeExerciseDetailScreencap.png; path = ../PrescribeExerciseDetailScreencap.png; sourceTree = "<group>"; };
 		6CD40B8C18D1376300F3DAFD /* custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom.png; sourceTree = "<group>"; };
 		6CD40B8D18D1376300F3DAFD /* grapevineWalking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grapevineWalking.png; sourceTree = "<group>"; };
@@ -363,6 +375,9 @@
 		6CD40B8B18D1376300F3DAFD /* nonretina */ = {
 			isa = PBXGroup;
 			children = (
+				6CA3FD0B18D9FD480097D201 /* balanceHeader.png */,
+				6CA3FD0C18D9FD480097D201 /* cardioHeader.png */,
+				6CA3FD0D18D9FD480097D201 /* strengthHeader.png */,
 				6CD40B8C18D1376300F3DAFD /* custom.png */,
 				6CD40B8D18D1376300F3DAFD /* grapevineWalking.png */,
 				6CD40B8E18D1376300F3DAFD /* reachingWhileStanding.png */,
@@ -378,6 +393,9 @@
 		6CD40B9418D1376300F3DAFD /* retina */ = {
 			isa = PBXGroup;
 			children = (
+				6CA3FD1118D9FD560097D201 /* balanceHeader@2x.png */,
+				6CA3FD1218D9FD560097D201 /* cardioHeader@2x.png */,
+				6CA3FD1318D9FD560097D201 /* strengthHeader@2x.png */,
 				6CD40B9518D1376300F3DAFD /* custom@2x.png */,
 				6CD40B9618D1376300F3DAFD /* grapevineWalking@2x.png */,
 				6CD40B9718D1376300F3DAFD /* reachingWhileStanding@2x.png */,
@@ -473,6 +491,7 @@
 				6CD40B9D18D1376300F3DAFD /* PrescribeExerciseDetailScreencap.png in Resources */,
 				2D21587918D13E8A00ABD813 /* community@2x.png in Resources */,
 				2D58112F18C819C700B65C26 /* Images.xcassets in Resources */,
+				6CA3FD0F18D9FD480097D201 /* cardioHeader.png in Resources */,
 				2D21588318D13E8A00ABD813 /* progress.png in Resources */,
 				6CD40BAC18D1376300F3DAFD /* tiptoeChair@2x.png in Resources */,
 				6CD40B9E18D1376300F3DAFD /* custom.png in Resources */,
@@ -488,6 +507,7 @@
 				2D58111E18C819C700B65C26 /* InfoPlist.strings in Resources */,
 				2D21585D18D13E8400ABD813 /* complete@2x.png in Resources */,
 				6CD40B9F18D1376300F3DAFD /* grapevineWalking.png in Resources */,
+				6CA3FD1618D9FD560097D201 /* strengthHeader@2x.png in Resources */,
 				6CD40BAA18D1376300F3DAFD /* SitToStand@2x.png in Resources */,
 				6CD40BAB18D1376300F3DAFD /* tandemWalking@2x.png in Resources */,
 				6CD40BA918D1376300F3DAFD /* sidewaysStepping@2x.png in Resources */,
@@ -504,8 +524,10 @@
 				2D21588718D13E8A00ABD813 /* user@2x.png in Resources */,
 				2D21588118D13E8A00ABD813 /* moreInfo.png in Resources */,
 				6CD40BA518D1376300F3DAFD /* toeReachSeated.png in Resources */,
+				6CA3FD0E18D9FD480097D201 /* balanceHeader.png in Resources */,
 				6CD40BA618D1376300F3DAFD /* custom@2x.png in Resources */,
 				2D21587B18D13E8A00ABD813 /* exercises.png in Resources */,
+				6CA3FD1418D9FD560097D201 /* balanceHeader@2x.png in Resources */,
 				2D21585F18D13E8400ABD813 /* unfinished@2x.png in Resources */,
 				2D21587E18D13E8A00ABD813 /* home@2x.png in Resources */,
 				6CD40BA718D1376300F3DAFD /* grapevineWalking@2x.png in Resources */,
@@ -516,8 +538,10 @@
 				2D21587C18D13E8A00ABD813 /* exercises@2x.png in Resources */,
 				2D21585818D13E8400ABD813 /* beginExercise.png in Resources */,
 				6CD40BAD18D1376300F3DAFD /* toeReachSeated@2x.png in Resources */,
+				6CA3FD1018D9FD480097D201 /* strengthHeader.png in Resources */,
 				6CD40BA418D1376300F3DAFD /* tiptoeChair.png in Resources */,
 				6CD40BA118D1376300F3DAFD /* sidewaysStepping.png in Resources */,
+				6CA3FD1518D9FD560097D201 /* cardioHeader@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
