@@ -52,9 +52,10 @@
                                 </connections>
                             </tableView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="73" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="5rK-vX-WQs">
-                                <rect key="frame" x="193" y="92" width="193" height="630"/>
+                                <rect key="frame" x="194" y="92" width="193" height="630"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="separatorColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="balance" rowHeight="73" id="ngt-h5-2lT">
                                         <rect key="frame" x="0.0" y="22" width="193" height="73"/>
@@ -71,8 +72,8 @@
                                     <outlet property="delegate" destination="JEX-9P-axG" id="8i3-GP-b3d"/>
                                 </connections>
                             </tableView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="73" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="NQi-RG-Dcd">
-                                <rect key="frame" x="386" y="92" width="192" height="630"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="73" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="NQi-RG-Dcd">
+                                <rect key="frame" x="388" y="92" width="192" height="630"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -91,15 +92,15 @@
                                 </connections>
                             </tableView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cardioHeader.png" translatesAutoresizingMaskIntoConstraints="NO" id="tKP-ac-wLe">
-                                <rect key="frame" x="0.0" y="64" width="193" height="28"/>
+                                <rect key="frame" x="1" y="64" width="193" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="balanceHeader.png" translatesAutoresizingMaskIntoConstraints="NO" id="FLm-qD-9HZ">
-                                <rect key="frame" x="193" y="64" width="193" height="28"/>
+                                <rect key="frame" x="194" y="64" width="193" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="strengthHeader.png" translatesAutoresizingMaskIntoConstraints="NO" id="2RU-83-axG">
-                                <rect key="frame" x="386" y="64" width="193" height="28"/>
+                                <rect key="frame" x="388" y="64" width="193" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="detailBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="cVg-dA-lRP">

@@ -14,6 +14,7 @@
     NSArray *CardioArray;
     NSArray *BalanceArray;
     NSArray *StrengthArray;
+    NSArray *ExerciseDetailArray;
 }
 
 @property (strong, nonatomic)   id detailItem;

@@ -94,6 +94,15 @@
                      [UIImage imageNamed:@"cardio_6"],
                      [UIImage imageNamed:@"custom"],
                      nil];
+    ExerciseDetailArray = [NSArray arrayWithObjects:
+                   [UIImage imageNamed:@"cardio_1"],
+//                   [UIImage imageNamed:@"cardio_2"],
+//                   [UIImage imageNamed:@"cardio_3"],
+//                   [UIImage imageNamed:@"cardio_4"],
+//                   [UIImage imageNamed:@"cardio_5"],
+//                   [UIImage imageNamed:@"cardio_6"],
+//                   [UIImage imageNamed:@"custom"],
+                   nil];
     
     [self configureView];
 }
