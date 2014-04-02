@@ -20,7 +20,7 @@
     [super awakeFromNib];
 }
 
-- (void) resizeMasterWidth:(float)size { // NEEDS WORK
+- (void) resizeMsterWidth:(float)size { // NEEDS WORK
     AppDelegate *appDelegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
     UISplitViewController *splitViewController = (UISplitViewController *)appDelegate.window.rootViewController;
     [splitViewController setValue:[NSNumber numberWithFloat:size] forKey:@"_masterColumnWidth"];

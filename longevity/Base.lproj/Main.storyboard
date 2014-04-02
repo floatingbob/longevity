@@ -96,11 +96,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="balanceHeader.png" translatesAutoresizingMaskIntoConstraints="NO" id="FLm-qD-9HZ">
-                                <rect key="frame" x="194" y="64" width="193" height="28"/>
+                                <rect key="frame" x="195" y="64" width="193" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="strengthHeader.png" translatesAutoresizingMaskIntoConstraints="NO" id="2RU-83-axG">
-                                <rect key="frame" x="388" y="64" width="193" height="28"/>
+                                <rect key="frame" x="389" y="64" width="193" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="detailBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="cVg-dA-lRP">
